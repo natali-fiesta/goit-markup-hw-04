@@ -259,20 +259,26 @@ button {
 }
 .icon-list {
   display: flex;
-  justify-content: center;
-  gap: 24px;
-  width: (calc (100% - 24px * 3) / 4);
-}
-.icon-feature {
-  display: flex;
   align-items: center;
   justify-content: center;
+  gap: 24px;
   border: 1px solid #8e8f99;
   border-radius: 4px;
   width: 264px;
   height: 112px;
   background-color: #f4f4fd;
   margin-bottom: 8px;
+}
+.icon-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;*/
 }
 .icon {
 }
